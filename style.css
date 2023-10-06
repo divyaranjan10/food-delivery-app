@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width:600px) {
+    .itemList {
+        width: 80%;
+    }
+}
+
+@media (max-width:850px) {
+    .nav-items {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #FFEDD5;
+        z-index: 1;
+        border-top: 1px white solid;
+        border-bottom: 1px white solid;
+    }
+    
+    .nav-items .nav-ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-weight: 500;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .visible {
+        display: block;
+    }
+
+    .hiddenIcon {
+        display: none;
+    }
+}

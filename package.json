@@ -1,0 +1,38 @@
+{
+  "name": "namaste-react-updated",
+  "version": "1.0.0",
+  "description": "This is Namaste React Course",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyaranjan10/namaste-react-updated.git"
+  },
+  "keywords": [],
+  "author": "Divyaranjan Pradhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyaranjan10/namaste-react-updated/issues"
+  },
+  "homepage": "https://github.com/divyaranjan10/namaste-react-updated#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.31",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.16.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
